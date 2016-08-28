@@ -42,7 +42,7 @@ app.controller('checker', function (ingredients) {
 /*************************getting ingredients service*****************/
 app.service('ingredients', function ($http) {
     this.getIngredients = function () {
-        return $http.get('http://localhost:7070/data/ingredients').then(function (response) {
+        return $http.get('/data/ingredients').then(function (response) {
             console.log(response.data);
             return response.data;
         });
@@ -62,14 +62,14 @@ app.controller('addStore', function ($scope, $http,$window) {
             , Lang: $scope.formData.Lang
         };
         //	 when landing on the page, get all data and show them
-        $http.get('http://localhost:7070/data/stores').success(function (data) {
+        $http.get('/data/stores').success(function (data) {
             $scope.stores = data;
         }).error(function (data) {
             console.log('Error: ' + data);
         });
         // when submitting the add form, send the text to the node API
         console.log(storeData);
-        $http.post('http://localhost:7070/data/stores1', storeData).success(function (data) {
+        $http.post('/data/stores1', storeData).success(function (data) {
             console.log(data);
             $scope.stores1 = data;
             // Once complete, clear the form (except location)
@@ -103,7 +103,7 @@ app.controller('admin', function ($scope, stores, stores1, $http) {
         vm.stores1 = storesData;
         vm.deleteStore1 = function (id) {
             console.log(id);
-            $http.delete('http://localhost:7070/data/stores1/' + id).success(function (data) {
+            $http.delete('/data/stores1/' + id).success(function (data) {
                 
                 vm.stores1 = data;
             }).error(function (data) {
@@ -111,7 +111,7 @@ app.controller('admin', function ($scope, stores, stores1, $http) {
             });
         }
         vm.approveStore = function (id) {
-            $http.post('http://localhost:7070/data/stores1/' + id).success(function (data) {
+            $http.post('/data/stores1/' + id).success(function (data) {
                 vm.stores1 = data;
             }).error(function (data) {
                 console.log('Error:' + data);
@@ -123,7 +123,7 @@ app.controller('admin', function ($scope, stores, stores1, $http) {
         vm.stores = storesData;
         vm.deleteStore = function (id) {
             console.log(id);
-            $http.delete('http://localhost:7070/data/stores/' + id).success(function (data) {
+            $http.delete('/data/stores/' + id).success(function (data) {
                 
                 vm.stores = data;
             }).error(function (data) {
@@ -134,7 +134,7 @@ app.controller('admin', function ($scope, stores, stores1, $http) {
 });
 app.service('stores', function ($http) {
     this.getStores = function () {
-        return $http.get('http://localhost:7070/data/stores').then(function (response) {
+        return $http.get('/data/stores').then(function (response) {
             console.log(response.data);
             return response.data;
         });
@@ -142,7 +142,7 @@ app.service('stores', function ($http) {
 });
 app.service('stores1', function ($http) {
     this.getStores1 = function () {
-        return $http.get('http://localhost:7070/data/stores1').then(function (response) {
+        return $http.get('/data/stores1').then(function (response) {
             console.log(response.data);
             return response.data;
         });
