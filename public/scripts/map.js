@@ -39,4 +39,3 @@ p = {latitude: 52.379148, longitude: 4.900261};
                 markers.push(marker);
             }
         });
-    }
