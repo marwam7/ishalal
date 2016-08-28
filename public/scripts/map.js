@@ -1,5 +1,5 @@
 //var geolocation = require('geolocation');
-p = {latitude: 52.379148, longitude: 4.900261};
+p = {latitude: '52.379148', longitude: '4.900261'};
         var LatLng = new google.maps.LatLng(p.latitude, p.longitude);
         var mapOptions = {
             center: LatLng
