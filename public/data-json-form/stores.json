@@ -1,0 +1,76 @@
+/* 1 */
+{
+    "_id" : ObjectId("57aa1e70a6a543a025caf958"),
+    "Lat" : 52.363899,
+    "Lang" : 4.832741,
+    "city" : "Amsterdam",
+    "street" : "Burgemeester de Vlugtlaan",
+    "store_name" : "Halal Fried Chicken West",
+    "store_phone" : "020 233 3675"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("57aa1e70a6a543a025caf959"),
+    "Lat" : 52.246836,
+    "Lang" : 5.112925,
+    "city" : "Amsterdam",
+    "street" : "De Boomgaard 30, 1243 HV 's-Graveland ",
+    "store_name" : "Islamitische Slachterij Boudount BV",
+    "store_phone" : "0294 482 921"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("57aa1e70a6a543a025caf95a"),
+    "Lat" : 52.380668,
+    "Lang" : 4.8657,
+    "city" : "Amsterdam",
+    "street" : "De Clercqstraat 19, 1053 AA Amsterdam",
+    "store_name" : "Thai Kitchen",
+    "store_phone" : "020 770 8677"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("57aa1e70a6a543a025caf95b"),
+    "Lat" : 52.404133,
+    "Lang" : 4.915138,
+    "city" : "Amsterdam",
+    "street" : "Ooievaarsweg 12, 1021 GZ Amsterdam",
+    "store_name" : "Slagerij Kaddour",
+    "store_phone" : "020 632 8374"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("57b28b71502f69be8b218271"),
+    "Lat" : 52.343235,
+    "Lang" : 5.745563,
+    "city" : "Almere",
+    "street" : "Almere station",
+    "store_name" : "Almere Fried Chicken (HALAL)",
+    "store_phone" : "036 750 5132"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("57b28b8b502f69be8b218272"),
+    "Lat" : 52.336942,
+    "Lang" : 4.942188,
+    "city" : "Amsterdam Zuid",
+    "street" : "Albert Camuslaan 111, 1102 WG Amsterdam-Zuidoost",
+    "store_name" : "Medina Al-halal Slagerij",
+    "store_phone" : "020 695 8298"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("57b28ba0502f69be8b218273"),
+    "Lat" : 52.357915,
+    "Lang" : 4.891376,
+    "city" : "Amsterdam",
+    "street" : "Quellijnstraat 104, 1072 XZ Amsterdam",
+    "store_name" : "Restaurant Mamouche",
+    "store_phone" : "020 670 0736"
+}

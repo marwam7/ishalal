@@ -1,0 +1,213 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Admin | 7alal</title>
+    <!-----------------ANGULAR LIBRARIES-------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.js"></script>
+    <!---------------STYLE LIBRARIES------------------------>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!----------------Google------------------------>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-------------MAIN FILES SCRIPTS------------------>
+    <link rel="stylesheet" type="text/css" href="style/css.css">
+    <script src="scripts/interfaces.js"></script>
+    <script src="scripts/angular.js"></script>
+</head>
+<style>
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#A7A1AE;
+  background-color:#222;
+    
+}
+    h1{
+        color: #FB667A;
+    }
+.cont th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: silver;
+}
+
+.cont td {
+	  font-weight: normal;
+	  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #222;
+	   -moz-box-shadow: 0 2px 2px -2px #222;
+	        box-shadow: 0 2px 2px -2px #222;
+}
+
+.cont {
+	  text-align: left;
+	  overflow: scroll;
+	  width: 80%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+}
+
+.cont td, .cont th {
+	  padding-bottom: 2%;
+	  padding-top: 2%;
+  padding-left:2%;  
+}
+
+
+.cont tr {
+	  background-color: #222;
+}
+
+.cont th {
+	  background-color: #222;
+}
+
+.cont td:first-child { color: #FB667A; }
+
+.cont tr:hover {
+   background-color: #111;
+    font-weight: bold;
+}
+
+
+    #input1 {
+        margin-bottom: 10px;
+    }
+ 
+    
+    #Wrong_pwd {
+        display: none;
+        color: #FB667A;
+    }
+    
+    #added_stores {
+        display: none;
+        
+    }
+    table{
+        overflow: scroll;
+        color: gray;
+    }
+ 
+</style>
+
+<body ng-app="project" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- navbar start -->
+    <nav class="navbar  navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header"> <a class="navbar-brand page-scroll" href="index.html">Back to Home</a> </div>
+            <!-- end of navbar header -->
+        </div>
+    </nav>
+    <!-- End of navbar -->
+    <div id="main5"></div>
+    <div id="main2">
+        <div class="container">
+            <h1>Admin Panel</h1>
+            <hr width="30%" />
+            <div ng-controller="admin" id="login" class="row">
+                <div class="col-md-4"></div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-md-offset-0 col-lg-4 col-sm-offset-4">
+                    <h3>Enter your password please</h3>
+                    <br> <font size="30px">
+                    <input id="input1"  name="pwd" type="password" placeholder="***"ng-model="pswd" >
+                        </font>&nbsp;
+                    <button id="loginbtn"class="btn btn-success" ng-click="password(pswd)">Login</button>
+                    <br>
+                    <br>
+                    <h4 id="Wrong_pwd">Error Password! please try again.</h4> </div>
+            </div>
+            <!--            <div class="row"><hr noshade></div>-->
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div ng-controller="admin as v" id="added_stores">
+                        <table class="cont">
+                            <center>
+                                Stores Added by <big><b>USERS</b></big>
+                            </center>
+                            <thead>
+                                <tr>
+                                    <th><h1>NAME</h1></th>
+                                    <th><h1>CITY</h1></th>
+                                    <th><h1>STREET</h1></th>
+                                    <th><h1>PHONE</h1></th>
+                                    <th><h1>LATITUDE</h1></th>
+                                    <th><h1>LONGITUDE</h1></th>
+                                    <th><h1>APPROVE</h1></th>
+                                    <th><h1>REMOVE</h1></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="s in v.stores1">
+                                    <td>{{s.store_name}}</td>
+                                    <td>{{s.city}}</td>
+                                    <td>{{s.street}}</td>
+                                    <td>{{s.store_phone}}</td>
+                                    <td>{{s.Lat}}</td>
+                                    <td>{{s.Lang}}</td>
+                                    <td>
+                                        <button class="glyphicon glyphicon-ok btn btn-success" type="button"  ng-click="v.approveStore(s._id)"></button>
+                                    </td>
+                                    <td>
+                                        <button class="glyphicon glyphicon-remove btn btn-danger" type="button" value="" ng-click="v.deleteStore1(s._id)"></button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                         <hr width="70%" />
+ <table class="cont">
+                            <center>
+                                Stores approved by <big><b>ADMIN</b></big>
+                            </center>
+                            <thead>
+                                <tr>
+                                    <th><h1>NAME</h1></th>
+                                    <th><h1>CITY</h1></th>
+                                    <th><h1>STREET</h1></th>
+                                    <th><h1>PHONE</h1></th>
+                                    <th><h1>LATITUDE</h1></th>
+                                    <th><h1>LONGITUDE</h1></th>
+                                    <th><h1>REMOVE</h1></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="s in v.stores">
+                                    <td>{{s.store_name}}</td>
+                                    <td>{{s.city}}</td>
+                                    <td>{{s.street}}</td>
+                                    <td>{{s.store_phone}}</td>
+                                    <td>{{s.Lat}}</td>
+                                    <td>{{s.Lang}}</td>
+                                    
+                                    <td>
+                                        <button class="glyphicon glyphicon-remove btn btn-danger" type="button" value="" ng-click="v.deleteStore(s._id)"></button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <footer>
+        <center>Hack.Your.Future</center><br><br><br>
+        
+    </footer>
+</body>
+
+</html>

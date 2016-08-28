@@ -1,0 +1,691 @@
+/* 1 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fd5"),
+    "Error" : "This code is not exist",
+    "name" : "undefined",
+    "type" : "none",
+    "code" : "not exist",
+    "Explanation" : "none",
+    "status" : "none",
+    "icon" : "http://www.clker.com/cliparts/0/4/6/1/11949904011525963418file_broken.svg.med.png",
+    "image" : "http://www.clker.com/cliparts/0/4/6/1/11949904011525963418file_broken.svg.med.png"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fd6"),
+    "ing_id" : 1.0,
+    "c_id" : 20.0,
+    "code" : "E100",
+    "name" : "Curcumin/Turmeric",
+    "type" : "color",
+    "Explanation" : "Halal if pure grind turmeric powder or granular. Mushbooh if used as liquid, the solvents has to be Halal. Haraam if hidden ingredient is pork fat based emulsifier in dry mix.",
+    "image" : "http://cdn.greenmedinfo.com/sites/default/files/ckeditor/stebu/images/Curcumin.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fd7"),
+    "ing_id" : 2.0,
+    "c_id" : 20.0,
+    "code" : "E101",
+    "name" : "Riboflavin (Vitamin B2)",
+    "type" : "color",
+    "Explanation" : "Mushbooh (Haraam if from pork liver & Kidney, Halal if 100% plant material",
+    "image" : "https://media1.britannica.com/eb-media/05/143705-004-AC186E43.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fd8"),
+    "ing_id" : 3.0,
+    "c_id" : 20.0,
+    "code" : "E102",
+    "name" : "Tartrazine",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://www.megha-international.com/prd/tartrazine.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fd9"),
+    "ing_id" : 4.0,
+    "c_id" : 20.0,
+    "code" : "E104",
+    "name" : "Quinoline Yellow",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent other than water has to be Halal",
+    "image" : "http://www.indiantradebird.com/admin/members/1371/images/0_ff7f48da.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fda"),
+    "ing_id" : 5.0,
+    "c_id" : 20.0,
+    "code" : "E110",
+    "name" : "Sunset Yellow FCF / Orange Yellow S",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://3.imimg.com/data3/QD/PP/MY-2390141/sunset-yellow-250x250.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fdb"),
+    "ing_id" : 6.0,
+    "c_id" : 30.0,
+    "code" : "E120",
+    "name" : "Cochineal / Carminic Acid",
+    "type" : "Color",
+    "Explanation" : "Haraam according to Hanafi Fiqqah",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/2/20/Cochenille_z02.jpg",
+    "status" : "Haram",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/fb707410a020d77346fcd2dc2f6cc93e-cross.png"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fdc"),
+    "ing_id" : 7.0,
+    "c_id" : 20.0,
+    "code" : "E122",
+    "name" : "Carmoisine / Azorubine",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://4.imimg.com/data4/YY/WV/MY-7852284/carmoisine-250x250.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fdd"),
+    "ing_id" : 8.0,
+    "c_id" : 20.0,
+    "code" : "E123",
+    "name" : "Amaranth",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://www.rareseeds.com/assets/1/14/DimLarge/amaranth-red-garnet.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fde"),
+    "ing_id" : 9.0,
+    "c_id" : 20.0,
+    "code" : "E124",
+    "name" : "Ponceau 4R / Cochineal Red A",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://www.megha-international.com/prd/ponceau-4r.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fdf"),
+    "ing_id" : 10.0,
+    "c_id" : 20.0,
+    "code" : "E127",
+    "name" : "Erythrosine BS",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://3.imimg.com/data3/TK/KG/MY-2390141/erythrosine-250x250.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fe0"),
+    "ing_id" : 11.0,
+    "c_id" : 20.0,
+    "code" : "E131",
+    "name" : "Patent Blue V",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://3.imimg.com/data3/TE/RN/MY-2390141/patent-blue-v-500x500.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fe1"),
+    "ing_id" : 12.0,
+    "c_id" : 20.0,
+    "code" : "E132",
+    "name" : "Indigo Carmine / Idigotine",
+    "type" : "Color",
+    "Explanation" : "Halal if use as is as a 100% synthetic color  but if pork glycerin is added as a solvent then it is Haraam",
+    "image" : "https://sc02.alicdn.com/kf/UT8RA7WXcxaXXagOFbXe/Indigo-Carmine-Lake-Colour.jpg_220x220.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fe2"),
+    "ing_id" : 13.0,
+    "c_id" : 10.0,
+    "code" : "E140",
+    "name" : "Chlorophyll",
+    "type" : "Color",
+    "Explanation" : "Halal if use 100% powder or Halal if water or vegetable oil was used as a solvent",
+    "image" : "https://www.organicfacts.net/wp-content/uploads/2013/06/Chlorophyll.jpg",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fe3"),
+    "ing_id" : 14.0,
+    "c_id" : 10.0,
+    "code" : "E141",
+    "name" : "Copper Complex of Chlorophyll",
+    "type" : "Color",
+    "Explanation" : "Halal if use 100% powder or Halal if water or vegetable oil was used as a solvent",
+    "image" : "http://4.imimg.com/data4/TP/MI/MY-18961946/sodium-copper-chlorophyllin-complex-250x250.jpg",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fe4"),
+    "ing_id" : 15.0,
+    "c_id" : 20.0,
+    "code" : "E142",
+    "name" : "Green S / Acid Brilliant Green BS",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://cdn.instructables.com/FAI/UJTT/GOTSZ6NR/FAIUJTTGOTSZ6NR.MEDIUM.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fe5"),
+    "ing_id" : 16.0,
+    "c_id" : 10.0,
+    "code" : "E150(a-d)",
+    "name" : "Caramel Color/with chemicals",
+    "type" : "Color",
+    "Explanation" : "Halal",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fe6"),
+    "ing_id" : 17.0,
+    "c_id" : 20.0,
+    "code" : "E151",
+    "name" : "Black PN / Brilliant Black BN",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/Yh0AAOSwajVUQYO2/$_35.JPG",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fe7"),
+    "ing_id" : 18.0,
+    "c_id" : 20.0,
+    "code" : "E153",
+    "name" : "Carbon Black / Vegetable Carbon (Charcoal)",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "https://pixabay.com/static/uploads/photo/2014/10/06/10/28/carbon-476168_960_720.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fe8"),
+    "ing_id" : 19.0,
+    "c_id" : 20.0,
+    "code" : "E160a",
+    "name" : "Ethyl ester of Beta-apo-8-cartonoic acid",
+    "type" : "Color - Carotene",
+    "Explanation" : "Halal if used as 100% dry powder or granular or Halal if vegetable oil is used as a solvent in liquid form as a hidden ingredient. Haraam if pork gelatin is used as hidden ingredient or carrier",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fe9"),
+    "ing_id" : 20.0,
+    "c_id" : 20.0,
+    "code" : "E161a",
+    "name" : "Flavoxanthin",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fea"),
+    "ing_id" : 21.0,
+    "c_id" : 20.0,
+    "code" : "E161b",
+    "name" : "Lutein",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry powder or granular. Haraam if pork gelatin or pork glycerin is added in dry or liquid form",
+    "image" : "http://www.joyfulchem.com/data/attachment/201412/30/0c3d645e1e0e605d0a7b22db3c1f4c23.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201feb"),
+    "ing_id" : 22.0,
+    "c_id" : 20.0,
+    "code" : "E161c",
+    "name" : "Cryptoxanthin",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://g01.s.alicdn.com/kf/HTB1urZ9HpXXXXXuXVXXq6xXFXXX8/Chinese-herbs-beta-cryptoxanthin-herbal-extract.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fec"),
+    "ing_id" : 23.0,
+    "c_id" : 20.0,
+    "code" : "E161d",
+    "name" : "Rubixanthin",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fed"),
+    "ing_id" : 24.0,
+    "c_id" : 20.0,
+    "code" : "E161e",
+    "name" : "Violaxanthin",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fee"),
+    "ing_id" : 25.0,
+    "c_id" : 20.0,
+    "code" : "E161f",
+    "name" : "Rhodoxanthin",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fef"),
+    "ing_id" : 26.0,
+    "c_id" : 20.0,
+    "code" : "E161g",
+    "name" : "Canthaxanthin",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://www.chlorella-europe.com/v/vspfiles/assets/images/Astaxanthin-Dosage.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ff0"),
+    "ing_id" : 27.0,
+    "c_id" : 20.0,
+    "code" : "E162",
+    "name" : "Beetroot Red / Betanin",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://www.foodcolor.com/resource/resized_425x282_red-beet.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ff1"),
+    "ing_id" : 29.0,
+    "c_id" : 20.0,
+    "code" : "E163",
+    "name" : "Anthocyanins",
+    "type" : "Color",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "https://ellkayblog.files.wordpress.com/2013/02/anthocyanins.jpg?w=500&h=340",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ff2"),
+    "ing_id" : 30.0,
+    "c_id" : 20.0,
+    "code" : "E170",
+    "name" : "Calcium Carbonate (Chalk)",
+    "type" : "Color - Inorganic",
+    "Explanation" : "Halal if obtained from rock mineral and used as 100% dry powder or granular. Mushbooh if used as liquid, solvent has to be Halal",
+    "image" : "http://img1.exportersindia.com/product_images/bc-full/dir_94/2808490/limestone-calcium-carbonate-1410980.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ff3"),
+    "ing_id" : 31.0,
+    "c_id" : 10.0,
+    "code" : "E171",
+    "name" : "Titanium Dioxide",
+    "type" : "Color - Inorganic",
+    "Explanation" : "Halal",
+    "image" : "http://3.imimg.com/data3/LI/TR/MY-926606/sodium-tripolyphosphate-500x500.jpg",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ff4"),
+    "ing_id" : 32.0,
+    "c_id" : 10.0,
+    "code" : "E172",
+    "name" : "Iron Oxides and Hydroxides",
+    "type" : "Color - Inorganic",
+    "Explanation" : "Halal",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/e/ee/Iron(III)-oxide-sample.jpg",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ff5"),
+    "ing_id" : 33.0,
+    "c_id" : 10.0,
+    "code" : "E173",
+    "name" : "Aluminium",
+    "type" : "Color - Inorganic",
+    "Explanation" : "Halal",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ff6"),
+    "ing_id" : 34.0,
+    "c_id" : 10.0,
+    "code" : "E174",
+    "name" : "Silver",
+    "type" : "Color - Inorganic",
+    "Explanation" : "Halal",
+    "image" : "http://www.minresco.com/display/djpg/mi1213a.jpg",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ff7"),
+    "ing_id" : 35.0,
+    "c_id" : 10.0,
+    "code" : "E175",
+    "name" : "Gold",
+    "type" : "Color - Inorganic",
+    "Explanation" : "Halal",
+    "image" : "https://res.cloudinary.com/equities-com/image/upload/v1/u/398d0beebc2a1c91e7696c92ba188715/hwrvupskyxkxg39vtqil",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ff8"),
+    "ing_id" : 36.0,
+    "c_id" : 20.0,
+    "code" : "E180",
+    "name" : "Pigment Rubine / Lithol Rubine BK",
+    "type" : "Color - Inorganic",
+    "Explanation" : "Halal if used as 100% dry color. Mushbooh if used as liquid color, the solvent has to be Halal",
+    "image" : "http://coast.pink/images/2/7/2/0/3/0/6/en/1-lithol-rubine.jpg",
+    "status" : "Mashbooh",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ff9"),
+    "ing_id" : 37.0,
+    "c_id" : 10.0,
+    "code" : "E200",
+    "name" : "Sorbic Acid",
+    "type" : "Preservative",
+    "Explanation" : "Halal",
+    "image" : "http://pimg.tradeindia.com/01209370/b/1/Sorbic-Acid.jpg",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ffa"),
+    "ing_id" : 38.0,
+    "c_id" : 10.0,
+    "code" : "E201",
+    "name" : "Soduim Sorbate",
+    "type" : "Preservative",
+    "Explanation" : "Halal",
+    "image" : "http://www.purenature.co.nz/ic/3217222642/Potassium%20Sorbate.2.jpg",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ffb"),
+    "ing_id" : 39.0,
+    "c_id" : 10.0,
+    "code" : "E202",
+    "name" : "Potassium Sorbate",
+    "type" : "Preservative",
+    "Explanation" : "Halal",
+    "image" : "http://www.rouletesbouillettes.com/815-thickbox/sorbate-de-potassium.jpg",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ffc"),
+    "ing_id" : 40.0,
+    "c_id" : 10.0,
+    "code" : "E203",
+    "name" : "Calcium Sorbate",
+    "type" : "Preservative",
+    "Explanation" : "Halal",
+    "image" : "http://image.made-in-china.com/43f34j00hyctVOeWLUkN/Calcium-Sorbate-FCC-IV-Food-Grade.jpg",
+    "status" : "Halal",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ffd"),
+    "ing_id" : 41.0,
+    "c_id" : 10.0,
+    "code" : "E210",
+    "name" : "Benzoic Acid",
+    "type" : "Preservative",
+    "explanation" : "Halal",
+    "status" : "Halal",
+    "image" : "http://images.mentalfloss.com/sites/default/files/styles/insert_main_wide_image/public/istock_000043930170_small.jpg",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201ffe"),
+    "ing_id" : 42.0,
+    "c_id" : 10.0,
+    "code" : "E211",
+    "name" : "Sodium Benzoate",
+    "type" : "Preservative",
+    "explanation" : "Halal",
+    "status" : "Halal",
+    "image" : "http://sodiumnitrate.weebly.com/uploads/1/4/1/7/14177101/286305721.jpg",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92201fff"),
+    "ing_id" : 43.0,
+    "c_id" : 10.0,
+    "code" : "E212",
+    "name" : "Potassium Benzoate",
+    "type" : "Preservative",
+    "explanation" : "Halal",
+    "status" : "Halal",
+    "image" : "http://www.skylighter.com/images/web_pictures/Potassium-Benzoate-Chunky.jpg",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/7999b4c073f8530a0f19a30dc9c1b7da-accept.png"
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92202000"),
+    "ing_id" : 44.0,
+    "c_id" : 20.0,
+    "code" : "E213",
+    "name" : "Calcium Benzoate",
+    "type" : "Preservative",
+    "explanation" : "Halal, if calcium obtained from mineral, Mushbooh if it is obtained from bones.",
+    "status" : "Mashbooh",
+    "image" : "http://vignette3.wikia.nocookie.net/shokugekinosoma/images/6/60/No_Image_Available.png/revision/latest?cb=20150708082716",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92202001"),
+    "ing_id" : 45.0,
+    "c_id" : 20.0,
+    "code" : "E214",
+    "name" : "Ethyl 4-hydroxybenzoate",
+    "type" : "Preservative",
+    "explanation" : "Halal, if used as 100% dry powder or granular. Haraam if alcohol is used as a solvent",
+    "status" : "Mashbooh",
+    "image" : "http://vignette3.wikia.nocookie.net/shokugekinosoma/images/6/60/No_Image_Available.png/revision/latest?cb=20150708082716",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92202002"),
+    "ing_id" : 46.0,
+    "c_id" : 20.0,
+    "code" : "E215",
+    "name" : "Ethyl 4-hydroxybenzoate, Sodium Salt",
+    "type" : "Preservative",
+    "explanation" : "Halal, if used as 100% dry powder or granular. Haraam if alcohol is used as a solvent",
+    "status" : "Mashbooh",
+    "image" : "http://vignette3.wikia.nocookie.net/shokugekinosoma/images/6/60/No_Image_Available.png/revision/latest?cb=20150708082716",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92202003"),
+    "ing_id" : 47.0,
+    "c_id" : 20.0,
+    "code" : "E216",
+    "name" : "Propyl 4-hydroxybenzoate",
+    "type" : "Preservative",
+    "explanation" : "Halal, if used as 100% dry powder or granular. Haraam if alcohol is used as a solvent",
+    "status" : "Mashbooh",
+    "image" : "http://cdn.larsonsecurity.com/wp-content/uploads/2013/12/chemical1.jpg",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92202004"),
+    "ing_id" : 48.0,
+    "c_id" : 20.0,
+    "code" : "E217",
+    "name" : "Propyl 4-hydroxybenzoate, Sodium Salt",
+    "type" : "Preservative",
+    "explanation" : "Halal, if used as 100% dry powder or granular. Haraam if alcohol is used as a solvent",
+    "status" : "Mashbooh",
+    "image" : "http://cdn.larsonsecurity.com/wp-content/uploads/2013/12/chemical1.jpg",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92202005"),
+    "ing_id" : 49.0,
+    "c_id" : 20.0,
+    "code" : "E218",
+    "name" : "Methyl 4-hydroxybenzoate",
+    "type" : "Preservative",
+    "explanation" : "Halal, if used as 100% dry powder or granular. Haraam if alcohol is used as a solvent",
+    "status" : "Mashbooh",
+    "image" : "http://cdn.larsonsecurity.com/wp-content/uploads/2013/12/chemical1.jpg",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("57b3259dc0d73bbf92202006"),
+    "ing_id" : 50.0,
+    "c_id" : 20.0,
+    "code" : "E219",
+    "name" : "Methyl 4-hydroxybenzoate, Sodium Salt",
+    "type" : "Preservative",
+    "explanation" : "Halal, if used as 100% dry powder or granular. Haraam if alcohol is used as a solvent",
+    "status" : "Mashbooh",
+    "image" : "http://cdn.larsonsecurity.com/wp-content/uploads/2013/12/chemical1.jpg",
+    "icon" : "http://www.myiconfinder.com/uploads/iconsets/c7eba42ce12ae9b26d5e8379b73dd86b-Refuse.png"
+}

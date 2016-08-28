@@ -1,0 +1,182 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HYF | 7alal</title>
+    <!-------------------------ANGULAR LIBRARIES-------------------->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <!-------------------------STYLE LIBRARIES---------------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!------------------------------Google------------------------->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCOpwkwwf5E-aXMUgELjNuZ9NSVvr5fVBE"></script>
+    <!-------------------------MAIN FILES SCRIPTS------------------>
+    <link rel="stylesheet" type="text/css" href="style/css.css">
+    <script src="scripts/interfaces.js"></script>
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/map.js"></script>
+    <!----------------autocomplete------>
+    <!--<script src="scripts/jquery.easy-autocomplete.min.js"></script> -->
+    <!--<script src="scripts/jquery.easy-autocomplete.js"></script> -->
+    <!--<link rel="stylesheet" href="scripts/easy-autocomplete.min.css"> -->
+    <!-----------------------------charts-------------------------->
+    <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+
+<body ng-app="project" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- navbar start -->
+    <nav class="navbar  navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#fold" aria-expanded="false"> <span class="sr-only">Toggle Navigation</span> <span class="glyphicon glyphicon-align-justify"></span> </button><a id="toadmin"href="admin.html"><img id="logo" src="https://cdn4.iconfinder.com/data/icons/islamic-filled-line/2048/6384_-_Halal_Sticker-48.png"></a><font color="white"> is7alal</font></div>
+            <!-- end of navbar header -->
+            <div class="collapse navbar-collapse" id="fold">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li> <a href="#main">Main</a> </li>
+                    <li> <a href="#check">Check a product</a> </li>
+                    <li> <a href="#stores">Stores</a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of navbar -->
+    <!---------------------------------cover and main------------------>
+    <div id="main"> </div>
+    <!-------------------------info------------------------------->
+    <div id="main2">
+        <div class="container">
+            <h1>Welcome</h1>
+            <hr width="50%" />
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="glyphicon glyphicon-info-sign"></span>
+                    <h1>What is Halal?</h1>
+                    <p>Halal is an Arabic word that means "permissible." In terms of food, it means food that is permissible according to Islamic law. For a meat to be certified "halal," it cannot be dead by itself or from pork and some other rules.</p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="glyphicon glyphicon-cog"></span>
+                    <h1>Our website</h1>
+                    <p>we offer you the status of your doubted food product depending on it's E code, and so some stores around you where you can eat Halal 100%</p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="glyphicon glyphicon-thumbs-up"></span>
+                    <h1>No checking needed</h1>
+                    <p>In short, these resources are well known that they aren't allowed: Pork, Animals improperly slaughtered, or already dead before slaughtering, Blood, Intoxicants,and any product made out of them.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------checkproduct----------------------------------->
+    <div id="check" ng-controller="checker as v">
+        <div class="container">
+            <h1>Check your product</h1>
+            <hr width="30%" />
+            <div>
+                <input id="input1" maxlength="5" placeholder="ex: E101" ng-model="fvalue" />
+                <button id="btn1" class="btn btn-success glyphicon glyphicon-search" ng-click="a = v.find(fvalue); showme=true"> </button>
+                <div class="row">
+                    <center>{{a.Error}}
+                        <br> </center>
+                    <div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-2 col-sm-offset-2">
+                        <div id="viewdata" ng-show="showme" class="col-md-8 col-sm-8 col-xs-12 ">
+                            <div class="col-md-6">
+                                <h3>{{a.name}}</h3>
+                                <h6>{{a.type}}</h6> <img id="icon" ng-src="{{a.icon}}">
+                                <h1><b>{{a.status}}</b></h1>
+                                <p>{{a.Explanation}}</p>
+                            </div>
+                            <div class="col-md-6 col-sm-8 col-xs-12 img-div"> <img id="image" ng-src="{{a.image}}"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------chart------------------------------------>
+    <div id=main3>
+        <div class="container">
+            <div class="col-md-3 col-sm-2 col-xs-2"></div>
+            <div class="col-md-8 col-sm-12 col-xs-12">
+                <div class="col-md-8 col-sm-12 col-xs-12" id="chartContainer" style="height: 300px; width: inherit;margin-bottom:5%;"> </div>
+            </div>
+        </div>
+    </div>
+    <div id="stores" ng-controller="addStore">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-8">
+                    <div id="dvMap"> </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 ">
+                    <br>
+                    <br>
+                    <form name="addForm" id="addForm" novalidate> <big><big><big>Add</big></big>
+                        </big> New Store
+                        <div>
+                            <input type="text" id="input3" placeholder="store name" ng-model="formData.store_name" required> </div>
+                        <div>
+                            <input type="text" id="input3" placeholder="city" ng-model="formData.city" required> </div>
+                        <div>
+                            <input type="text" id="input3" placeholder="street" ng-model="formData.street" required> </div>
+                        <div>
+                            <input type="text" id="input3" placeholder="phone number" ng-model="formData.store_phone" required> </div>
+                        
+                        <div>
+                            <input type="number" id="input3" placeholder="latitude" ng-model="formData.Lat" >
+                            <input type="number" placeholder="langitude" id="input3" ng-model="formData.Lang" > </div>
+                        <hr>
+                        <div class="col-md-offset-3 col-sm-offset-2">
+                            <div class="col-xs-6 col-md-4">
+                                <input type="submit" id="btnadd" value="Add" class="btn btn-default btn-block btn-md" ng-click="createStore();showmsg=true" ng-disabled="addForm.$invalid" tabindex="7">
+                            </div>
+                            <div class="col-xs-6 col-md-4">
+                                <input type="submit" value="Reset" class="btn btn-danger btn-block btn-md" onclick="reset()" ng-click="showmsg=false"> </div>
+                            <br>
+                            <br>
+                            <div ng-show="showmsg">
+                                <h5><font color="green" >Done! your Store will be approved soon by Admin. </font></h5></div>
+                        </div>
+                        <hr> </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+        <div id="dvMap"> </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> .:click the pins to view details:. </div>
+    </div>
+-->
+    <!------------------------------------contact----------------------------------->
+    <div id="contact">
+        <div class="container">
+            <h1>Contact us</h1>
+            <hr width="30%" />
+            <div class="row">
+                <br>
+                <br>
+                <div class="col-md-2"></div>
+                <div class="col-md-8 col-xs-12">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <a id="sm" href="https://www.facebook.com/marwa.m7l" target="_blank"> <i class="fa fa-facebook  bigicon" aria-hidden="true"></i> </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <a id="sm" href="https://www.github.com/marwam7" target="_blank"> <i class="fa fa-github-alt bigicon" aria-hidden="true"></i> </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <a id="sm" href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin bigicon" aria-hidden="true"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <center>Hack.Your.Future</center>
+    </footer>
+</body>
+
+</html>
