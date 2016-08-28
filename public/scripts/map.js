@@ -1,8 +1,6 @@
 //var geolocation = require('geolocation');
-
-if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function (p) {
-        var LatLng = new google.maps.LatLng(p.coords.latitude, p.coords.longitude);
+p = {latitude: 52.379148, longitude: 4.900261};
+        var LatLng = new google.maps.LatLng(p.latitude, p.longitude);
         var mapOptions = {
             center: LatLng
             , zoom: 11
@@ -13,7 +11,7 @@ if (navigator.geolocation) {
             position: LatLng
             , map: map
             , animation: google.maps.Animation.BOUNCE
-            , title: "<div style = 'height:60px;width:200px'><b>Your location:</b><br />Latitude: " + p.coords.latitude + "<br />Longitude: " + p.coords.longitude
+            , title: "<div style = 'height:60px;width:200px'><b>Your location:</b><br />Latitude: " + p.latitude + "<br />Longitude: " + p.longitude
         });
         var image = 'https://cdn4.iconfinder.com/data/icons/islamic-filled-line/2048/6384_-_Halal_Sticker-48.png';
         var markers = [];
@@ -41,9 +39,4 @@ if (navigator.geolocation) {
                 markers.push(marker);
             }
         });
-    }, function (failure) {
-        if (failure.message.indexOf("Only secure origins are allowed") == 0) {
-            alert('Geo Location feature is not supported in this browser.');
-        }
-    });
-}
+    }
