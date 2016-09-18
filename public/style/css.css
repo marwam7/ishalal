@@ -56,7 +56,8 @@ a:hover {
 
 #main2 {
 /*    color: #FB667A;*/
-     color:#9E9E9E;
+    /* color:#9E9E9E;*/
+    color:purple;
     background-color: #222;
     background-position: center;
     text-align: center;
