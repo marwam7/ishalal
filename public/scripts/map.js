@@ -17,6 +17,7 @@ function cenetralizedMap() {
              , zoom: 11
              , mapTypeId: google.maps.MapTypeId.ROADMAP
          };
+         var map = new google.maps.Map(document.getElementById("dvMap"), mapOptions);
         var image = 'https://cdn4.iconfinder.com/data/icons/islamic-filled-line/2048/6384_-_Halal_Sticker-48.png';
         var markers = [];
         $.getJSON("/data/stores", function (result) {
