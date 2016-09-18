@@ -1,19 +1,26 @@
 //var geolocation = require('geolocation');
-function cenetralizedMap() {
-p = {latitude: 52.379148, longitude: 4.900261};
-        var LatLng = new google.maps.LatLng(p.latitude, p.longitude);
-        var mapOptions = {
-            center: LatLng
-            , zoom: 11
-            , mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(document.getElementById("dvMap"), mapOptions);
-        var marker = new google.maps.Marker({
-            position: LatLng
-            , map: map
-            , animation: google.maps.Animation.BOUNCE
-            , title: "<div style = 'height:60px;width:200px'><b>Your location:</b><br />Latitude: " + p.latitude + "<br />Longitude: " + p.longitude
-        });
+
+
+//if (navigator.geolocation) {
+//    navigator.geolocation.getCurrentPosition(function (p) {
+//        var LatLng = new google.maps.LatLng(p.coords.latitude, p.coords.longitude);
+//        var mapOptions = {
+//            center: LatLng
+//            , zoom: 11
+//            , mapTypeId: google.maps.MapTypeId.ROADMAP
+//        };
+
+
+var LatLng = {
+lat:52.3651114,
+lng:4.8935676
+};
+
+var mapOptions = {
+           center: LatLng
+           , zoom: 11
+           , mapTypeId: google.maps.MapTypeId.ROADMAP
+       };
         var image = 'https://cdn4.iconfinder.com/data/icons/islamic-filled-line/2048/6384_-_Halal_Sticker-48.png';
         var markers = [];
         $.getJSON("/data/stores", function (result) {
