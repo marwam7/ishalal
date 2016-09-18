@@ -9,18 +9,13 @@
 //            , zoom: 11
 //            , mapTypeId: google.maps.MapTypeId.ROADMAP
 //        };
-
-
-var LatLng = {
-lat:52.3651114,
-lng:4.8935676
-};
-
-var mapOptions = {
-           center: LatLng
-           , zoom: 11
-           , mapTypeId: google.maps.MapTypeId.ROADMAP
-       };
+p = {latitude: '52.379148', longitude: '4.900261'};
+        var LatLng = new google.maps.LatLng(p.latitude, p.longitude);
+        var mapOptions = {
+            center: LatLng
+            , zoom: 11
+            , mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
         var image = 'https://cdn4.iconfinder.com/data/icons/islamic-filled-line/2048/6384_-_Halal_Sticker-48.png';
         var markers = [];
         $.getJSON("/data/stores", function (result) {
