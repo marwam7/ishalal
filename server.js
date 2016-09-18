@@ -8,7 +8,7 @@ var port = process.env.PORT || 7070;
 var cors = require('cors');
 var geolocation = require('geolocation');
 //connecting with database
-var db = mongojs('DB7:777@ds055862.mlab.com:55862/hackyourfuture?authMechanism=SCRAM-SHA-1', ['stores','stores1','ingredients']);
+var db = mongojs('halaluser:1qazxsw23edc@127.0.0.1:27017/hallal?authMechanism=SCRAM-SHA-1', ['stores','stores1','ingredients']);
 
 // Link the frontend dir to the server
 app.use(express.static('frontend'));
