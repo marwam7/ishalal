@@ -29,10 +29,8 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-84377196-1', 'auto');
   ga('send', 'pageview');
-
 </script>
     <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </head>
@@ -49,8 +47,8 @@
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
-                    <li> <a href="#main">Main</a> </li>
-                    <li> <a href="#check">Check a product</a> </li>
+                     <li> <a href="#check">Check product</a> </li>
+                    <li> <a href="#main2">About</a> </li>
                     <li> <a href="#stores">Stores</a> </li>
                     <li> <a href="#contact">Contact</a> </li>
                 </ul>
@@ -60,32 +58,12 @@
     <!-- End of navbar -->
     <!---------------------------------cover and main------------------>
     <div id="main"> </div>
-    <!-------------------------info------------------------------->
-    <div id="main2">
-        <div class="container">
-            <h1>Welcome</h1>
-            <hr width="50%" />
-            <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="glyphicon glyphicon-info-sign"></span>
-                    <h1>What is Halal?</h1>
-                    <p>Halal is an Arabic word that means "permissible." In terms of food, it means food that is permissible according to Islamic law. For a meat to be certified "halal," it cannot be dead by itself or from pork and some other rules.</p>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="glyphicon glyphicon-cog"></span>
-                    <h1>Our website</h1>
-                    <p>we offer you the status of your doubted food product depending on it's E code, and so some stores around you where you can eat Halal 100%</p>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="glyphicon glyphicon-thumbs-up"></span>
-                    <h1>No checking needed</h1>
-                    <p>In short, these resources are well known that they aren't allowed: Pork, Animals improperly slaughtered, or already dead before slaughtering, Blood, Intoxicants,and any product made out of them.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-------------------------checkproduct----------------------------------->
     <div id="check" ng-controller="checker as v">
-        <div class="container">
-            <h1>Check your product</h1>
-            <hr width="30%" />
+        <div class="col-sm-6 checking-div container">
+            <h1><big>CHECK YOUR PRODUCT</big></h1>
+            <hr color="#333"width="30%" />
             <div>
                 <input id="input1" maxlength="5" placeholder="ex: E101" ng-model="fvalue" />
                 <button id="btn1" class="btn btn-success glyphicon glyphicon-search" ng-click="a = v.find(fvalue); showme=true"> </button>
@@ -103,6 +81,27 @@
                             <div class="col-md-6 col-sm-8 col-xs-12 img-div"> <img id="image" ng-src="{{a.image}}"> </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------info------------------------------->
+    <div id="main2">
+        <div class="container">
+            <h1>Welcome</h1>
+            <hr width="50%" />
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="glyphicon glyphicon-info-sign"></span>
+                    <h1>What is Halal?</h1>
+                    <p>Halal is an Arabic word that means "permissible." In terms of food, it means food that is permissible according to Islamic law. For a meat to be certified "halal," it cannot be dead by itself or from pork and some other rules.</p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="glyphicon glyphicon-cog"></span>
+                    <h1>Our website</h1>
+                    <p>we offer you the status of your doubted food product depending on it's E code, and so some stores around you where you can eat Halal 100%</p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="glyphicon glyphicon-thumbs-up"></span>
+                    <h1>No checking needed</h1>
+                    <p>In short, these resources are well known that they aren't allowed: Pork, Animals improperly slaughtered, or already dead before slaughtering, Blood, Intoxicants,and any product made out of them.</p>
                 </div>
             </div>
         </div>
@@ -188,5 +187,4 @@
         <center>Done by Marwa<br>hackyourfuture</center>
     </footer>
 </body>
-
 </html>
