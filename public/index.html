@@ -61,12 +61,14 @@
     
     <!-------------------------checkproduct----------------------------------->
     <div id="check" ng-controller="checker as v">
+        <br><br>
         <div class="col-sm-6 checking-div container">
             <h1><big>CHECK YOUR PRODUCT</big></h1>
             <hr color="#333"width="30%" />
-            <div>
+            <div id="secdiv">
                 <input id="input1" maxlength="5" placeholder="ex: E101" ng-model="fvalue" />
                 <button id="btn1" class="btn btn-success glyphicon glyphicon-search" ng-click="a = v.find(fvalue); showme=true"> </button>
+                
                 <div class="row">
                     <center>{{a.Error}}
                         <br> </center>
@@ -82,8 +84,10 @@
                         </div>
                     </div>
                 </div>
+                <br><br><br><br><br>
             </div>
         </div>
+        
     </div>
     <!-------------------------info------------------------------->
     <div id="main2">
