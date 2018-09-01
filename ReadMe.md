@@ -3,9 +3,9 @@ Hack your future graduation project
 live link: [is7alal.com](http://is7alal.com/)
 
 ## Introduction 
-With the increased number of refugees comming to Europe, many refugees are facing difficulties in choosing the right food products depending on the **"Halal Food"** rules, so instead of stand for long time reading the ingredients of each product before get it, such as (meat, sweets and chips..) that have **E-number** materials in its contents, a simple application is created to help finding out the right choice in a very easy way.
+With the increased number of migrants coming to Europe, many of those coming from islamic countries are facing difficulties in choosing the right food products depending on the **"Halal Food"** rules, so instead of stand for long time reading the ingredients of each product before get it, such as (meat, sweets, chips..) that have **E-number** materials in its contents, a simple application is created to help finding out the right choice in a very easy way.
 
-*notice: Halal is an Arabic word that means "permissible." In terms of food, it means food that is permissible according to Islamic law. For a meat to be certified "halal," it cannot be dead by itself  or from pork.* 
+*notice: Halal is an Arabic word means "permissible." In terms of food, it means food that is permissible according to Islamic law. For a meat to be certified "halal," it cannot be dead by itself  or from pork.* 
 
 ## Project Idea
 Food ingredients detector if Halal or not.
